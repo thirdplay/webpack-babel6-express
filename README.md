@@ -1,4 +1,4 @@
-# webpack-babel6-express
+# webpack-babel6-on-express
 Expressでwebpack-dev-middlewareおよびwebpack-hot-middlewareを使用した自動再読み込み。
 
 ## 動作環境
