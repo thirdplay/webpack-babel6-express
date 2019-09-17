@@ -1,5 +1,5 @@
 {
-  "name": "webpack-dev-server-on-express",
+  "name": "webpack-babel6-on-express",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --config ./webpack.prod.js",
@@ -7,7 +7,6 @@
     "dev:server": "set NODE_ENV=development && babel-watch ./src/server/server.js",
     "prod:server": "set NODE_ENV=production && node ./src/server/server.js"
   },
-  "repository": "https://github.com/thirdplay/webpack-dev-server-on-express.git",
   "author": "thirdplay",
   "license": "MIT",
   "dependencies": {
