@@ -1,0 +1,33 @@
+{
+  "name": "webpack-dev-server-on-express",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --config ./webpack.prod.js",
+    "dev:client": "webpack-dev-server --config ./webpack.dev.js",
+    "dev:server": "set NODE_ENV=development && babel-watch ./src/server/server.js",
+    "prod:server": "set NODE_ENV=production && node ./src/server/server.js"
+  },
+  "repository": "https://github.com/thirdplay/webpack-dev-server-on-express.git",
+  "author": "thirdplay",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-runtime": "^6.26.0",
+    "babel-watch": "^2.0.8",
+    "body-parser": "^1.19.0",
+    "eslint": "^6.2.2",
+    "eslint-config-google": "^0.13.0",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "multer": "^1.4.2",
+    "underscore": "^1.9.1",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-merge": "^4.2.2"
+  }
+}

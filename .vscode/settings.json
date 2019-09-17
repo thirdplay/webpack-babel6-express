@@ -1,0 +1,23 @@
+{
+  "breadcrumbs.enabled": true,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [120],
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 120,
+  "editor.formatOnSave": false,
+  "editor.detectIndentation": false,
+  "eslint.packageManager": "yarn",
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "files.encoding": "utf8",
+  "files.eol": "\r\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "html.format.endWithNewline": true,
+  "html.format.extraLiners": "body",
+  "html.format.preserveNewLines": false,
+  "html.format.wrapLineLength": 0,
+  "prettier.disableLanguages": ["html","markdown"],
+  "prettier.eslintIntegration": true
+}

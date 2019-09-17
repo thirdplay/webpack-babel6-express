@@ -1,0 +1,24 @@
+env:
+  browser: true
+  es6: true
+extends: google
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+rules:
+  linebreak-style:
+    - error
+    - windows
+  max-len:
+    - error
+    - code: 120
+  no-console:  # warnとerror以外のconsoleに対して警告する
+    - warn
+    - allow:
+      - warn
+      - error
+  semi:
+    - error
+    - never
+
+
